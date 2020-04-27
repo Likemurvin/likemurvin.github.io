@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Parallax</title>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <div class="buttons-container">
+            <button type = "button" id = "previous_button">previous image</button>
+        </div>
+        <div class="image-container">
+            <canvas class="canvas" width="800" height="800" id="canvas"></canvas>
+            <!-- <canvas class="canvas" width="800" height="800" id="canvas_2"></canvas> -->
+            <!-- <canvas class="canvas" width="800" height="800" id="canvas_3"></canvas> -->
+            <div class="loading-screen" id="loading">Loading...</div>
+        </div>
+        <div class="buttons-container">
+            <button type = "button" id = "next_button">next image</button>
+        </div>
+    </body>
+    <script type="text/javascript" src="./tween.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</html>
