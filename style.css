@@ -52,3 +52,83 @@ body {
     visibility: hidden;
     opacity:0;
 }
+
+figure:hover {
+    transform: scale(0.8);
+}
+
+figure{
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    line-height: 50px;
+    /* background-color:#8cc63f; */
+    /* border: 4px solid #8cc63f; */
+    border-radius: 4px;
+    margin: 10px;
+    /* margin-top: 20px; */
+    transition: all 0.2s ease-in-out;
+}
+
+#preview-0{
+    /* background-color:#8cc63f; */
+    background-image: url(image/preview_0.svg);
+}
+
+#preview-1{
+    /* background-color:#8cc63f; */
+    background-image: url(image/preview_1.svg);
+}
+
+#preview-2{
+    /* background-color:#8cc63f; */
+    background-image: url(image/preview_2.svg);
+}
+
+#instagram-logo{
+    /* display: inline-block; */
+    background-image: url(image/instagram_logo.svg);
+    background-size: contain;
+    /* background-color:#8cc63f; */
+    width: 50px;
+    height: 50px;
+    
+}
+
+#behance-logo{
+    
+    /* display: inline-block; */
+    background-image: url(image/behance_logo.svg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.information {
+    margin-top:0;
+    line-height: 200%;
+    font-size: 20pt;
+    display: flex;
+    text-align: left;
+    /* width: 150px; */
+}
+
+.social-media-logos {
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}
+
+.choose-image{
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}

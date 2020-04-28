@@ -6,11 +6,10 @@ var canvas = document.getElementById('canvas');
 // Images variables
 var image_name = "layer";
 
-//Clicking on buttons
-var next_button = document.getElementById('next_button');
-
-var previous_button = document.getElementById('previous_button');
-
+// Clicking on images preview
+var preview_0 = document.getElementById("preview-0");
+var preview_1 = document.getElementById("preview-1");
+var preview_2 = document.getElementById("preview-2");
 // next_button.onclick = changeContent("first");
 
 // previous_button.onclick = changeContent("layer");
@@ -123,12 +122,16 @@ function drawCanvas() {
     requestAnimationFrame(drawCanvas);
 }
 
-next_button.onclick = function (){
+preview_1.onclick = function (){
     changeContent('first');
 };
 
-previous_button.onclick = function(){
+preview_0.onclick = function(){
     changeContent("layer");
+};
+
+preview_2.onclick = function(){
+    changeContent("third");
 };
 
 function getOffset(layer) {
