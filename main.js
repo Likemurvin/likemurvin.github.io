@@ -10,6 +10,8 @@ var image_name = "layer";
 var preview_0 = document.getElementById("preview-0");
 var preview_1 = document.getElementById("preview-1");
 var preview_2 = document.getElementById("preview-2");
+var preview_3 = document.getElementById("preview-3");
+var preview_4 = document.getElementById("preview-4");
 // next_button.onclick = changeContent("first");
 
 // previous_button.onclick = changeContent("layer");
@@ -44,7 +46,7 @@ var layer_list = [
     {
         'image': background,
         'src': './image/' + image_name + '_0.png',
-        'z_index': -2,
+        'z_index': -1,
         'position': {x: 0, y:0},
         'blend': null,
         'opacity': 1
@@ -52,7 +54,7 @@ var layer_list = [
     {
         'image': dots,
         'src': './image/' + image_name + '_1.png',
-        'z_index': -1.5,
+        'z_index': -0.6,
         'position': {x: 0, y:0},
         'blend': null,
         'opacity': 1
@@ -60,7 +62,7 @@ var layer_list = [
     {
         'image': circle,
         'src': './image/' + image_name + '_2.png',
-        'z_index': -0.5,
+        'z_index': -0.1,
         'position': {x: 0, y:0},
         'blend': null,
         'opacity': 1
@@ -132,6 +134,14 @@ preview_0.onclick = function(){
 
 preview_2.onclick = function(){
     changeContent("third");
+};
+
+preview_3.onclick = function(){
+    changeContent("four");
+};
+
+preview_4.onclick = function(){
+    changeContent("five");
 };
 
 function getOffset(layer) {
