@@ -78,17 +78,24 @@ figure{
 
 #preview-0{
     /* background-color:#8cc63f; */
+    /* width: 150px;
+    height: 150px; */
     background-image: url(image/preview_0.svg);
+    background-repeat: no-repeat;
 }
 
 #preview-1{
     /* background-color:#8cc63f; */
+    /* width: 150px; */
+    /* height: 150px; */
     background-image: url(image/preview_1.svg);
+    background-repeat: no-repeat;
 }
 
 #preview-2{
     /* background-color:#8cc63f; */
     background-image: url(image/preview_2.svg);
+    background-repeat: no-repeat;
 }
 
 #instagram-logo{
