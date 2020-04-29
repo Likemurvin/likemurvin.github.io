@@ -115,7 +115,7 @@ function drawCanvas() {
         }
         // Opacity set
         context.globalAlpha = layer.opacity;
-        context.drawImage(layer.image, layer.position.x + 150, layer.position.y + 150);
+        context.drawImage(layer.image, layer.position.x + 150, layer.position.y + 50);
         // context_2.drawImage(layer.image, layer.position.x + 150, layer.position.y + 150);
     });
 
